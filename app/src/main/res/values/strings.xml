@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">LoL Kills Counter</string>
+    <string name="red_team">Red Team</string>
+    <string name="blue_team">Blue Team</string>
+    <string name="red_team_land">Red \nTeam</string>
+    <string name="blue_team_land">Blue \nTeam</string>
+    <string name="kill">Kill</string>
+    <string name="baron">Baron</string>
+    <string name="dragon">Dragon</string>
+    <string name="tower">Tower</string>
+    <string name="new_match">New Match</string>
+    <string name="start0">0</string>
+</resources>

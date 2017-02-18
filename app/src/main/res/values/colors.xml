@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="color_buttons_teamA">#eeeeee</color>
+    <color name="color_text_teamA"> #01579b</color>
+    <color name="color_text_teamB">#d32f2f</color>
+    <color name="color_text_newMatch">#fafafa</color>
+    <color name="bg">#212121</color>
+    <color name="button">#424242</color>
+</resources>

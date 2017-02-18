@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Logo -->
+    <dimen name="logo_heigth">120dp</dimen>
+    <dimen name="logo_padding">10dp</dimen>
+
+    <!-- Team image -->
+    <dimen name="team_image_width">80dp</dimen>
+    <dimen name="team_image_heigth">80dp</dimen>
+    <dimen name="size60">60dp</dimen>
+
+    <!-- Margins -->
+    <dimen name="margin10">10dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="margin24">24dp</dimen>
+    <dimen name="margin25">25dp</dimen>
+    <dimen name="margin35">35dp</dimen>
+    <dimen name="pad15">15dp</dimen>
+    <dimen name="margin5">5dp</dimen>
+    <dimen name="margin100">100dp</dimen>
+    <dimen name="margin230">230dp</dimen>
+    <dimen name="margin4">4dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+
+    <!-- Text -->
+    <dimen name="score_text">29sp</dimen>
+    <dimen name="team_text">24sp</dimen>
+
+
+
+
+
+
+
+
+</resources>

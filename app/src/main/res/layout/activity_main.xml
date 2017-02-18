@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:shimmer="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ekzhu.lolkillscounter.MainActivity">
+
+    <ImageView
+        style="@style/bg"
+        android:src="@drawable/cup" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/Logo"
+            style="@style/Logo"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:id="@+id/teams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/TeamLayout">
+
+                <ImageView
+                    android:id="@+id/blueTeamLogo"
+                    style="@style/Team_image"
+                    android:src="@drawable/blue" />
+
+                <TextView
+                    style="@style/Team"
+                    android:text="@string/blue_team" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForTeamA"
+                        android:text="@string/kill" />
+
+                    <TextView
+                        android:id="@+id/teamA"
+                        style="@style/buttontext.A"
+                        android:text="@string/start0" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForBaronA"
+                        android:text="@string/baron" />
+
+                    <TextView
+                        android:id="@+id/baronA"
+                        style="@style/buttontext.A"
+                        android:text="@string/start0" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForDragonA"
+                        android:text="@string/dragon" />
+
+                    <TextView
+                        android:id="@+id/dragonA"
+                        style="@style/buttontext.A"
+                        android:text="@string/start0" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForTowerA"
+                        android:text="@string/tower" />
+
+                    <TextView
+                        android:id="@+id/towerA"
+                        style="@style/buttontext.A"
+                        android:text="@string/start0" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/TeamLayout">
+
+                <ImageView
+                    style="@style/Team_image"
+                    android:src="@drawable/red" />
+
+                <TextView
+                    style="@style/Team"
+                    android:text="@string/red_team" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/teamB"
+                        style="@style/buttontext.B"
+                        android:text="@string/start0" />
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForTeamB"
+                        android:text="@string/kill" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/baronB"
+                        style="@style/buttontext.B"
+                        android:text="@string/start0" />
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForBaronB"
+                        android:text="@string/baron" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/dragonB"
+                        style="@style/buttontext.B"
+                        android:text="@string/start0" />
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForDragonB"
+                        android:text="@string/dragon" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/towerB"
+                        style="@style/buttontext.B"
+                        android:text="@string/start0" />
+
+
+                    <Button
+                        style="@style/buttons"
+                        android:onClick="addOneForTowerB"
+                        android:text="@string/tower" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        style="@style/new_match"
+        android:onClick="resetPoints"
+        android:text="@string/new_match" />
+
+</RelativeLayout>

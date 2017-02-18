@@ -1,0 +1,179 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/button</item>
+    </style>
+
+    <!-- Layout styles -->
+    <style name="TeamLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Image styles -->
+    <style name="bg">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:alpha">0.4</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="Logo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/logo_heigth</item>
+        <item name="android:padding">@dimen/logo_padding</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="LogoLand">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/margin100</item>
+        <item name="android:padding">@dimen/margin4</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">0.55</item>
+    </style>
+
+    <style name="Team_image">
+        <item name="android:layout_height">@dimen/team_image_heigth</item>
+        <item name="android:layout_width">@dimen/team_image_width</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="Team_imageLand">
+        <item name="android:layout_height">@dimen/size60</item>
+        <item name="android:layout_width">@dimen/size60</item>
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="Team_imageLand.A">
+        <item name="android:layout_marginTop">@dimen/pad15</item>
+        <item name="android:layout_marginLeft">@dimen/margin25</item>
+    </style>
+
+    <style name="Team_imageLand.B">
+        <item name="android:layout_marginTop">@dimen/pad15</item>
+        <item name="android:layout_marginLeft">@dimen/margin35</item>
+    </style>
+
+    <!-- Teams -->
+    <style name="Team">
+        <item name="android:textSize">@dimen/team_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">@dimen/margin10</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bg</item>
+    </style>
+
+    <style name="TeamLand">
+        <item name="android:textSize">@dimen/team_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/bg</item>
+        <item name="android:layout_marginTop">@dimen/margin25</item>
+        <item name="android:layout_marginLeft">@dimen/margin20</item>
+    </style>
+
+    <!-- Buttons and scores -->
+    <style name="buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/color_buttons_teamA</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_margin">@dimen/margin10</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="buttontext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/score_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_margin">@dimen/margin5</item>
+    </style>
+
+    <style name="buttontext.A">
+        <item name="android:textColor">@color/color_text_teamA</item>
+    </style>
+
+    <style name="buttontext.B">
+        <item name="android:textColor">@color/color_text_teamB</item>
+    </style>
+
+    <style name="buttonsLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textColor">@color/color_buttons_teamA</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_margin">@dimen/margin5</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="buttontextLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/score_text</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:layout_margin">@dimen/margin5</item>
+    </style>
+
+    <style name="buttontextLand.A">
+        <item name="android:textColor">@color/color_text_teamA</item>
+    </style>
+
+    <style name="buttontextLand.B">
+        <item name="android:textColor">@color/color_text_teamB</item>
+    </style>
+
+    <style name="new_match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_text_newMatch</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin100</item>
+        <item name="android:layout_marginRight">@dimen/margin100</item>
+        <item name="android:layout_marginBottom">@dimen/margin10</item>
+        <item name="android:layout_marginTop">@dimen/margin10</item>
+    </style>
+
+    <style name="new_matchLand">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_text_newMatch</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginLeft">@dimen/margin230</item>
+        <item name="android:layout_marginRight">@dimen/margin230</item>
+        <item name="android:layout_marginBottom">@dimen/margin8</item>
+        <item name="android:layout_marginTop">@dimen/margin10</item>
+    </style>
+
+</resources>
