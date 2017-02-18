@@ -9,14 +9,14 @@ import com.facebook.shimmer.ShimmerFrameLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    int killTeamA = 0;
-    int towerTeamA = 0;
-    int dragonTeamA = 0;
-    int baronTeamA = 0;
-    int killTeamB = 0;
-    int dragonTeamB = 0;
-    int towerTeamB = 0;
-    int baronTeamB = 0;
+    private int killTeamA = 0;
+    private int towerTeamA = 0;
+    private int dragonTeamA = 0;
+    private int baronTeamA = 0;
+    private int killTeamB = 0;
+    private int dragonTeamB = 0;
+    private int towerTeamB = 0;
+    private int baronTeamB = 0;
 
     private static final String STATE_KILLSTEAMBLUE = "stateofKillsBlue";
     private static final String STATE_KILLSTEAMRED = "stateofKillsRed";
